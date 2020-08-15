@@ -214,14 +214,13 @@ def main():  #Main Function
         print('DRAW!')
     
     while True:
-        restart = input(print("Do you want to play again?(y/n):  ")).upper()
+        restart = input('Do you want to play again?(y/n):  ').upper()
         if restart=='Y':
             main()
         elif restart=='N':
             print('Nice playing with you ! Bbye !')
             exit()        
 
-    exit()
 
 if __name__ == '__main__':
     main()
